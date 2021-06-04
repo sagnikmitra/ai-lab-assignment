@@ -1,3 +1,4 @@
+# Sagnik Mitra | 2027 | CSBS | 6th Semester
 ## AI Lab Assignment
 
 1. Design Tic-tac-toe game in artificial intelligence.
