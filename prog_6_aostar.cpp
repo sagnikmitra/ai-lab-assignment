@@ -69,62 +69,7 @@ root->v.push_back(ans);
 
 vector<node*>* min_ans=new vector<node*>;
 
-(*min_ans).push_back(root);49
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+(*min_ans).push_back(root);
 while(!root->solved)
 {
 node* next_node=root;
@@ -178,7 +123,7 @@ n->mark=true;
 else{
 for(unsigned int i=0;i<n->v.size();i++)
 {
-vector<node*>*ans=(n->v)[i];105
+vector<node*>*ans=(n->v)[i];
 vector<node*> ans_v=*ans;
 
 int temp_cost=0;
@@ -284,7 +229,7 @@ if(root)
 
 {
 
-fout<<root->data<<" ";161
+fout<<root->data<<" ";
 vector<vector<node*>* >vec=root->v;
 for(unsigned int i=0;i<(root->v).size();i++)
 {
