@@ -175,12 +175,6 @@ def evaluvate_misplaced(puzzle, goal):
                         
     return state, len(priority)
 
-
-
-# ----------  Program start -----------------
-
-#Nirmalya_Thakurta_2052_AI
-# User input for initial state 
 puzzle = []
 print(" Input vals from 0-8 for start state ")
 for i in range(0,9):
